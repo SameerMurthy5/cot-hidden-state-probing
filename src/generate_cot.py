@@ -82,7 +82,7 @@ def process_example(model, tokenizer, problem: str, gt_answer: float, layers: li
 
     hidden_states = {}
     for pos_name, tok_idx in positions.items():
-        hidden_states[pos_name] = extract_hidden_at_position(output_ids, tok_idx, layers)
+        hidden_states[pos_name] = extract_hidden_at_position(model, output_ids, tok_idx, layers)
 
     return {
         "prompt": prompt,
