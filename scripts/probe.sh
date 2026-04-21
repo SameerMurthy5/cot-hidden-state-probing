@@ -1,6 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=cot-probe
-#SBATCH --partition=cpu          # no GPU needed
+#SBATCH --account=labi
+#SBATCH --partition=a30
+#SBATCH --nodes=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH --time=01:00:00
@@ -11,7 +13,7 @@ set -e
 mkdir -p logs results/probes
 
 module load anaconda
-conda activate cot-probe   # replace with your env name
+conda activate /scratch/gilbreth/murthy25/conda/envs/cot-probe
 
 cd $SLURM_SUBMIT_DIR
 
