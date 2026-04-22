@@ -14,6 +14,11 @@ def extract_final_answer(text: str) -> Optional[float]:
     if gt_match:
         return _parse_number(gt_match.group(1))
 
+    # DeepSeek-R1 boxed answer format: \boxed{18}
+    boxed_match = re.search(r"\\boxed\{([\d,\.\-]+)\}", text)
+    if boxed_match:
+        return _parse_number(boxed_match.group(1))
+
     # After </think> tag — take last number in remaining text
     think_split = text.split("</think>")
     search_text = think_split[-1] if len(think_split) > 1 else text
@@ -108,16 +113,21 @@ def find_cot_positions(full_token_ids: list[int], prompt_len: int, tokenizer) ->
 def parse_equations(cot_text: str) -> list[dict]:
     """Find arithmetic equations in CoT text.
 
-    Returns list of dicts with keys: full_match, lhs, result, start, end.
-    Supports patterns like:
-      24 × 3 = 72
-      24 * 3 = 72
-      24 + 3 = 27
-      24 - 3 = 21
-      72 / 3 = 24
+    Handles DeepSeek-R1 output formats:
+      16 - 3 = **13 eggs**      (markdown bold, trailing text)
+      9 × $2 = **$18**          (dollar signs, × operator)
+      24 * 3 = 72               (plain)
+      Eggs kept = 16 - 3 = **13 eggs**  (labelled equations)
     """
+    # Match: number op number = optional(** $) number optional(text **)
     pattern = re.compile(
-        r"([\d,]+(?:\.\d+)?)\s*[×x\*\+\-\/÷]\s*([\d,]+(?:\.\d+)?)\s*=\s*([\d,]+(?:\.\d+)?)"
+        r"(\$?[\d,]+(?:\.\d+)?)"          # left operand (optional $)
+        r"\s*[×x\*\+\-\/÷]\s*"            # operator
+        r"(\$?[\d,]+(?:\.\d+)?)"          # right operand
+        r"\s*=\s*"                         # equals
+        r"\*{0,2}\$?"                      # optional markdown bold + dollar
+        r"([\d,]+(?:\.\d+)?)",            # result number
+        re.UNICODE,
     )
     results = []
     for m in pattern.finditer(cot_text):
