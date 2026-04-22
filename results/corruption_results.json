@@ -1,0 +1,1804 @@
+{
+  "summary": {
+    "n_total": 200,
+    "n_corrupted": 47,
+    "n_answer_changed": 7,
+    "answer_change_rate": 0.14893617021276595,
+    "error_propagation_rate": 0.14893617021276595,
+    "cross_check": {
+      "median_hidden_state_drift": 114.06664276123047,
+      "change_rate_high_drift": 0.125,
+      "change_rate_low_drift": 0.17391304347826086
+    }
+  },
+  "records": [
+    {
+      "idx": 9,
+      "gt_answer": 460.0,
+      "original_predicted": 460.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.20018005371094
+    },
+    {
+      "idx": 29,
+      "gt_answer": 104.0,
+      "original_predicted": 61.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.77015686035156
+    },
+    {
+      "idx": 38,
+      "gt_answer": 10.0,
+      "original_predicted": 8.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.07886505126953
+    },
+    {
+      "idx": 43,
+      "gt_answer": 48.0,
+      "original_predicted": 48.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.4657974243164
+    },
+    {
+      "idx": 46,
+      "gt_answer": 163.0,
+      "original_predicted": 244.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 142.3031463623047
+    },
+    {
+      "idx": 51,
+      "gt_answer": 5.0,
+      "original_predicted": 4.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.48017883300781
+    },
+    {
+      "idx": 73,
+      "gt_answer": 255.0,
+      "original_predicted": 255.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 142.27125549316406
+    },
+    {
+      "idx": 79,
+      "gt_answer": 70.0,
+      "original_predicted": 70.0,
+      "new_predicted": 70.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$100 - $30 = $70",
+      "corrupted_equation_new": "$100 - $30 = $36.\u010a\u010aTherefo",
+      "hidden_state_drift": 145.45303344726562
+    },
+    {
+      "idx": 90,
+      "gt_answer": 225.0,
+      "original_predicted": 225.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.38009643554688
+    },
+    {
+      "idx": 96,
+      "gt_answer": 3.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.75814819335938
+    },
+    {
+      "idx": 98,
+      "gt_answer": 5.0,
+      "original_predicted": 10.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.42719268798828
+    },
+    {
+      "idx": 99,
+      "gt_answer": 58.0,
+      "original_predicted": 58.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.96726989746094
+    },
+    {
+      "idx": 106,
+      "gt_answer": 72.0,
+      "original_predicted": 72.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.95512390136719
+    },
+    {
+      "idx": 113,
+      "gt_answer": 25.0,
+      "original_predicted": 25.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.23512268066406
+    },
+    {
+      "idx": 115,
+      "gt_answer": 90.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.47437286376953
+    },
+    {
+      "idx": 116,
+      "gt_answer": 42.0,
+      "original_predicted": 42.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.588134765625
+    },
+    {
+      "idx": 117,
+      "gt_answer": 360.0,
+      "original_predicted": 360.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.94960021972656
+    },
+    {
+      "idx": 136,
+      "gt_answer": 6.0,
+      "original_predicted": 6.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.7630615234375
+    },
+    {
+      "idx": 141,
+      "gt_answer": 400.0,
+      "original_predicted": 400.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.1004867553711
+    },
+    {
+      "idx": 145,
+      "gt_answer": 4000.0,
+      "original_predicted": 333.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 144.33741760253906
+    },
+    {
+      "idx": 154,
+      "gt_answer": 272.0,
+      "original_predicted": 208.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.4371337890625
+    },
+    {
+      "idx": 155,
+      "gt_answer": 280.0,
+      "original_predicted": 280.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.86040496826172
+    },
+    {
+      "idx": 161,
+      "gt_answer": 32.0,
+      "original_predicted": 32.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.69192504882812
+    },
+    {
+      "idx": 170,
+      "gt_answer": 150.0,
+      "original_predicted": 150.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.38636779785156
+    },
+    {
+      "idx": 172,
+      "gt_answer": 51.0,
+      "original_predicted": 33.0,
+      "new_predicted": 33.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "8 - 3 = 5",
+      "corrupted_equation_new": "8 - 3 = 4\u0120years\u0120old",
+      "hidden_state_drift": 107.1446762084961
+    },
+    {
+      "idx": 181,
+      "gt_answer": 160.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.92977905273438
+    },
+    {
+      "idx": 191,
+      "gt_answer": 5.0,
+      "original_predicted": 0.5,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.80247497558594
+    },
+    {
+      "idx": 193,
+      "gt_answer": 24.0,
+      "original_predicted": 2.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.69889831542969
+    },
+    {
+      "idx": 198,
+      "gt_answer": 320.0,
+      "original_predicted": 240.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.53733825683594
+    },
+    {
+      "idx": 208,
+      "gt_answer": 76.0,
+      "original_predicted": 76.0,
+      "new_predicted": 76.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "3 * 4 = 12",
+      "corrupted_equation_new": "3 * 4 = 16\u0120cakes.\u010a\u010aO",
+      "hidden_state_drift": 110.03380584716797
+    },
+    {
+      "idx": 209,
+      "gt_answer": 145.0,
+      "original_predicted": 11.85,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.67266845703125
+    },
+    {
+      "idx": 214,
+      "gt_answer": 8.0,
+      "original_predicted": 2.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.47113037109375
+    },
+    {
+      "idx": 217,
+      "gt_answer": 15.0,
+      "original_predicted": 11.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 139.29190063476562
+    },
+    {
+      "idx": 225,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 112.13983917236328
+    },
+    {
+      "idx": 227,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "new_predicted": 9.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$0.50 + $3.00 = $14.00",
+      "corrupted_equation_new": "$0.50 + $3.00 = $19.29.\u010a\u010aSince\u0120C",
+      "hidden_state_drift": 110.67579650878906
+    },
+    {
+      "idx": 244,
+      "gt_answer": 20.0,
+      "original_predicted": 10.0,
+      "new_predicted": 12.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "5 + 10 = 15",
+      "corrupted_equation_new": "5 + 10 = 9\u0120fries.\u010a\u010aTh",
+      "hidden_state_drift": 111.05973052978516
+    },
+    {
+      "idx": 261,
+      "gt_answer": 62.0,
+      "original_predicted": 62.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.87313079833984
+    },
+    {
+      "idx": 270,
+      "gt_answer": 762.0,
+      "original_predicted": 762.0,
+      "new_predicted": 762.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "300 + 12 = 312",
+      "corrupted_equation_new": "300 + 12 = 264\u0120M&Ms.\u010a\u010aTh",
+      "hidden_state_drift": 109.02842712402344
+    },
+    {
+      "idx": 271,
+      "gt_answer": 20.0,
+      "original_predicted": 20.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.72676086425781
+    },
+    {
+      "idx": 291,
+      "gt_answer": 2.0,
+      "original_predicted": 57.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.8489990234375
+    },
+    {
+      "idx": 296,
+      "gt_answer": 3.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 113.77650451660156
+    },
+    {
+      "idx": 303,
+      "gt_answer": 1300.0,
+      "original_predicted": 140.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.82918548583984
+    },
+    {
+      "idx": 312,
+      "gt_answer": 32.0,
+      "original_predicted": 32.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 145.1248016357422
+    },
+    {
+      "idx": 320,
+      "gt_answer": 8.0,
+      "original_predicted": 27.0,
+      "new_predicted": 27.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "25 - 22 = 3",
+      "corrupted_equation_new": "25 - 22 = 4\u0120men.\u010a\u010aSub",
+      "hidden_state_drift": 109.11182403564453
+    },
+    {
+      "idx": 340,
+      "gt_answer": 4.0,
+      "original_predicted": 3.0,
+      "new_predicted": 3.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "3 + 4 = 7",
+      "corrupted_equation_new": "3 + 4 = 4\u0120balls.\u010a\u010aD",
+      "hidden_state_drift": 127.62860107421875
+    },
+    {
+      "idx": 349,
+      "gt_answer": 2640.0,
+      "original_predicted": 2640.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.7896499633789
+    },
+    {
+      "idx": 350,
+      "gt_answer": 8.0,
+      "original_predicted": 6.75,
+      "new_predicted": 6.75,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "0.25 + 2 = 6.75",
+      "corrupted_equation_new": "0.25 + 2 = 3.58\u0120hours.\u010a\u010aT",
+      "hidden_state_drift": 115.97627258300781
+    },
+    {
+      "idx": 357,
+      "gt_answer": 2.0,
+      "original_predicted": 14.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.16998291015625
+    },
+    {
+      "idx": 373,
+      "gt_answer": 240000.0,
+      "original_predicted": 0.0,
+      "new_predicted": 0.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$400,000 - $160,000 = $240,000",
+      "corrupted_equation_new": "$400,000 - $160,000 = $324862.\u010a\u010aFinally,",
+      "hidden_state_drift": 113.78021240234375
+    },
+    {
+      "idx": 377,
+      "gt_answer": 50.0,
+      "original_predicted": 50.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.9839859008789
+    },
+    {
+      "idx": 381,
+      "gt_answer": 67.0,
+      "original_predicted": 67.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 140.87823486328125
+    },
+    {
+      "idx": 386,
+      "gt_answer": 80.0,
+      "original_predicted": 78.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.15320587158203
+    },
+    {
+      "idx": 394,
+      "gt_answer": 92.0,
+      "original_predicted": 36.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 121.5292739868164
+    },
+    {
+      "idx": 412,
+      "gt_answer": 5.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 118.29214477539062
+    },
+    {
+      "idx": 413,
+      "gt_answer": 25.0,
+      "original_predicted": 25.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.10651397705078
+    },
+    {
+      "idx": 423,
+      "gt_answer": 8.0,
+      "original_predicted": 6.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.50377655029297
+    },
+    {
+      "idx": 426,
+      "gt_answer": 11.0,
+      "original_predicted": 11.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.0610580444336
+    },
+    {
+      "idx": 430,
+      "gt_answer": 132.0,
+      "original_predicted": 1.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.79051971435547
+    },
+    {
+      "idx": 433,
+      "gt_answer": 6.0,
+      "original_predicted": 0.75,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 146.44039916992188
+    },
+    {
+      "idx": 437,
+      "gt_answer": 7.0,
+      "original_predicted": 7.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.06425476074219
+    },
+    {
+      "idx": 439,
+      "gt_answer": 17.0,
+      "original_predicted": 17.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.9026870727539
+    },
+    {
+      "idx": 446,
+      "gt_answer": 2.0,
+      "original_predicted": 2.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.65127563476562
+    },
+    {
+      "idx": 450,
+      "gt_answer": 4.0,
+      "original_predicted": 1.0,
+      "new_predicted": 1.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$20 - $20 = $0",
+      "corrupted_equation_new": "$20\u0120-\u0120$20\u0120=\u0120$0.\u0120This\u0120doe",
+      "hidden_state_drift": 106.5893325805664
+    },
+    {
+      "idx": 461,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 121.35294342041016
+    },
+    {
+      "idx": 470,
+      "gt_answer": 3.0,
+      "original_predicted": 7.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.58419799804688
+    },
+    {
+      "idx": 475,
+      "gt_answer": 20.0,
+      "original_predicted": 45.71,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.58807373046875
+    },
+    {
+      "idx": 486,
+      "gt_answer": 6.0,
+      "original_predicted": 6.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.76402282714844
+    },
+    {
+      "idx": 492,
+      "gt_answer": 32.0,
+      "original_predicted": 10.67,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.98909759521484
+    },
+    {
+      "idx": 497,
+      "gt_answer": 112.0,
+      "original_predicted": 112.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.20274353027344
+    },
+    {
+      "idx": 509,
+      "gt_answer": 4.0,
+      "original_predicted": 160.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.31097412109375
+    },
+    {
+      "idx": 512,
+      "gt_answer": 120.0,
+      "original_predicted": 120.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.65857696533203
+    },
+    {
+      "idx": 515,
+      "gt_answer": 160.0,
+      "original_predicted": 32.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.78594970703125
+    },
+    {
+      "idx": 518,
+      "gt_answer": 32.0,
+      "original_predicted": 32.0,
+      "new_predicted": 27.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "$40 + $120 = $160",
+      "corrupted_equation_new": "$40 + $120 = $117.\u010a\u010aNext,\u0120A",
+      "hidden_state_drift": 143.1293182373047
+    },
+    {
+      "idx": 519,
+      "gt_answer": 280.0,
+      "original_predicted": 280.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.45838928222656
+    },
+    {
+      "idx": 521,
+      "gt_answer": 39.0,
+      "original_predicted": 39.0,
+      "new_predicted": 39.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "12 + 36 = 48",
+      "corrupted_equation_new": "12 + 36 = 71\u0120problems.",
+      "hidden_state_drift": 108.17686462402344
+    },
+    {
+      "idx": 524,
+      "gt_answer": 9.0,
+      "original_predicted": 13.0,
+      "new_predicted": 13.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "5 + 8 = 13",
+      "corrupted_equation_new": "5 + 8 = 18\u0120rows\u0120of\u0120f",
+      "hidden_state_drift": 108.80493927001953
+    },
+    {
+      "idx": 525,
+      "gt_answer": 12.0,
+      "original_predicted": 36.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.7957534790039
+    },
+    {
+      "idx": 526,
+      "gt_answer": 21.0,
+      "original_predicted": 21.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.42457580566406
+    },
+    {
+      "idx": 536,
+      "gt_answer": 8.0,
+      "original_predicted": 8.0,
+      "new_predicted": 8.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "10 - 4 = 6",
+      "corrupted_equation_new": "10 - 4 = 3.\u0120So,\u0120Alya",
+      "hidden_state_drift": 108.86553955078125
+    },
+    {
+      "idx": 545,
+      "gt_answer": 30.0,
+      "original_predicted": 30.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 125.90408325195312
+    },
+    {
+      "idx": 547,
+      "gt_answer": 81.0,
+      "original_predicted": 120.0,
+      "new_predicted": 120.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "27 + 81 = 120",
+      "corrupted_equation_new": "27 + 81 = 157\u0120families.",
+      "hidden_state_drift": 116.0135269165039
+    },
+    {
+      "idx": 549,
+      "gt_answer": 398.0,
+      "original_predicted": 320.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.66680908203125
+    },
+    {
+      "idx": 551,
+      "gt_answer": 17.0,
+      "original_predicted": 17.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.83645629882812
+    },
+    {
+      "idx": 553,
+      "gt_answer": 92.0,
+      "original_predicted": 186.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 146.3242950439453
+    },
+    {
+      "idx": 558,
+      "gt_answer": 3.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.8815460205078
+    },
+    {
+      "idx": 565,
+      "gt_answer": 5.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.67363739013672
+    },
+    {
+      "idx": 568,
+      "gt_answer": 175.0,
+      "original_predicted": 175.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 101.60212707519531
+    },
+    {
+      "idx": 570,
+      "gt_answer": 23.0,
+      "original_predicted": 4.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 118.30614471435547
+    },
+    {
+      "idx": 579,
+      "gt_answer": 7.0,
+      "original_predicted": 7.0,
+      "new_predicted": 7.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "5 - 3 = 2",
+      "corrupted_equation_new": "5 - 3 = 1\u0120cards.\u010a\u010aN",
+      "hidden_state_drift": 141.2525177001953
+    },
+    {
+      "idx": 582,
+      "gt_answer": 129200.0,
+      "original_predicted": 174800.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 144.00558471679688
+    },
+    {
+      "idx": 583,
+      "gt_answer": 120.0,
+      "original_predicted": 110.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.07494354248047
+    },
+    {
+      "idx": 584,
+      "gt_answer": 2.0,
+      "original_predicted": 180.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 147.5335693359375
+    },
+    {
+      "idx": 585,
+      "gt_answer": 40.0,
+      "original_predicted": 40.0,
+      "new_predicted": 40.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$70 - $30 = $40",
+      "corrupted_equation_new": "$70 - $30 = $29.\u010a",
+      "hidden_state_drift": 111.90314483642578
+    },
+    {
+      "idx": 594,
+      "gt_answer": 42.0,
+      "original_predicted": 42.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 142.85206604003906
+    },
+    {
+      "idx": 598,
+      "gt_answer": 69.0,
+      "original_predicted": 345.0,
+      "new_predicted": 345.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "70 + 15 = 345",
+      "corrupted_equation_new": "70 + 15 = 442\u0120cents.\u010a\u010aN",
+      "hidden_state_drift": 118.47001647949219
+    },
+    {
+      "idx": 623,
+      "gt_answer": 8.0,
+      "original_predicted": 8.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 145.22567749023438
+    },
+    {
+      "idx": 626,
+      "gt_answer": 72.0,
+      "original_predicted": 72.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 120.66509246826172
+    },
+    {
+      "idx": 639,
+      "gt_answer": 216.0,
+      "original_predicted": 216.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.16193389892578
+    },
+    {
+      "idx": 642,
+      "gt_answer": 10800.0,
+      "original_predicted": 600.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.93016815185547
+    },
+    {
+      "idx": 645,
+      "gt_answer": 48.0,
+      "original_predicted": 48.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.84506225585938
+    },
+    {
+      "idx": 646,
+      "gt_answer": 79.0,
+      "original_predicted": 79.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 139.42994689941406
+    },
+    {
+      "idx": 647,
+      "gt_answer": 10.0,
+      "original_predicted": 10.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.13589477539062
+    },
+    {
+      "idx": 650,
+      "gt_answer": 142.0,
+      "original_predicted": 142.0,
+      "new_predicted": 3.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "$398 - $270 = $128",
+      "corrupted_equation_new": "$398 - $270 = $179.\u010a",
+      "hidden_state_drift": 111.65348052978516
+    },
+    {
+      "idx": 676,
+      "gt_answer": 240.0,
+      "original_predicted": 240.0,
+      "new_predicted": 240.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "1200 - 480 = 720",
+      "corrupted_equation_new": "1200 - 480 = 629\u0120\\)\u0120dollar",
+      "hidden_state_drift": 111.35943603515625
+    },
+    {
+      "idx": 684,
+      "gt_answer": 11.0,
+      "original_predicted": 24.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.55936431884766
+    },
+    {
+      "idx": 692,
+      "gt_answer": 32.0,
+      "original_predicted": 58.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 113.58275604248047
+    },
+    {
+      "idx": 700,
+      "gt_answer": 135.0,
+      "original_predicted": 123.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.97595977783203
+    },
+    {
+      "idx": 702,
+      "gt_answer": 2800.0,
+      "original_predicted": 2800.0,
+      "new_predicted": 2800.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "4000 + 800 = 4800",
+      "corrupted_equation_new": "4000 + 800 = 2737\u0120\\]\u010a\u010aWhen\u0120",
+      "hidden_state_drift": 117.67082977294922
+    },
+    {
+      "idx": 703,
+      "gt_answer": 50.0,
+      "original_predicted": 1.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.77913665771484
+    },
+    {
+      "idx": 706,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "new_predicted": 9.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$6300 - $2100 = $4200",
+      "corrupted_equation_new": "$6300 - $2100 = $6167.\u010a\u010aNext,\u0120I",
+      "hidden_state_drift": 117.2255630493164
+    },
+    {
+      "idx": 711,
+      "gt_answer": 6.0,
+      "original_predicted": 6.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 119.34800720214844
+    },
+    {
+      "idx": 717,
+      "gt_answer": 5.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.22132873535156
+    },
+    {
+      "idx": 732,
+      "gt_answer": 87.0,
+      "original_predicted": 87.0,
+      "new_predicted": 87.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "2 * 15 = 30",
+      "corrupted_equation_new": "2 * 15 = 25.\u0120\"Eight\u0120y",
+      "hidden_state_drift": 128.7289581298828
+    },
+    {
+      "idx": 734,
+      "gt_answer": 17.0,
+      "original_predicted": 13.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.0265884399414
+    },
+    {
+      "idx": 737,
+      "gt_answer": 2.0,
+      "original_predicted": 4.0,
+      "new_predicted": 4.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "3 * 4 = 12",
+      "corrupted_equation_new": "3 * 4 = 11\u0120ounces.\u010a-",
+      "hidden_state_drift": 114.06664276123047
+    },
+    {
+      "idx": 757,
+      "gt_answer": 75.0,
+      "original_predicted": 26.0,
+      "new_predicted": 2.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "2 * 2 = 4",
+      "corrupted_equation_new": "2 * 2 = 5\u010a-\u0120Medium:",
+      "hidden_state_drift": 106.88616180419922
+    },
+    {
+      "idx": 758,
+      "gt_answer": 133.0,
+      "original_predicted": 133.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 144.32423400878906
+    },
+    {
+      "idx": 775,
+      "gt_answer": 276.0,
+      "original_predicted": 276.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.9341049194336
+    },
+    {
+      "idx": 785,
+      "gt_answer": 155.0,
+      "original_predicted": 8.0,
+      "new_predicted": 8.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "20 + 12 = 32",
+      "corrupted_equation_new": "20 + 12 = 39\u0120quarters.",
+      "hidden_state_drift": 145.09425354003906
+    },
+    {
+      "idx": 791,
+      "gt_answer": 100.0,
+      "original_predicted": 100.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.8003921508789
+    },
+    {
+      "idx": 792,
+      "gt_answer": 75.0,
+      "original_predicted": 75.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 144.08724975585938
+    },
+    {
+      "idx": 796,
+      "gt_answer": 2880000.0,
+      "original_predicted": 3120000.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.92308807373047
+    },
+    {
+      "idx": 803,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 119.20995330810547
+    },
+    {
+      "idx": 805,
+      "gt_answer": 1170.0,
+      "original_predicted": 1170.0,
+      "new_predicted": 1170.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$600 + $300 = $900",
+      "corrupted_equation_new": "$600 + $300 = $1296.\u010a\u010aNext,\u0120",
+      "hidden_state_drift": 145.26043701171875
+    },
+    {
+      "idx": 812,
+      "gt_answer": 79.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.50337982177734
+    },
+    {
+      "idx": 813,
+      "gt_answer": 7.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.85980987548828
+    },
+    {
+      "idx": 814,
+      "gt_answer": 11.0,
+      "original_predicted": 0.2,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.44722747802734
+    },
+    {
+      "idx": 815,
+      "gt_answer": 4.0,
+      "original_predicted": 29.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.54976654052734
+    },
+    {
+      "idx": 819,
+      "gt_answer": 6250.0,
+      "original_predicted": 6250.0,
+      "new_predicted": 6250.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$175,000 - $50,000 = $125,000",
+      "corrupted_equation_new": "$175,000 - $50,000 = $100663.\u010a\u010aNext,\u0120I'",
+      "hidden_state_drift": 115.15216064453125
+    },
+    {
+      "idx": 826,
+      "gt_answer": 27.0,
+      "original_predicted": 27.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 107.40505981445312
+    },
+    {
+      "idx": 829,
+      "gt_answer": 14000.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.45599365234375
+    },
+    {
+      "idx": 830,
+      "gt_answer": 1128.0,
+      "original_predicted": 16.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.9378890991211
+    },
+    {
+      "idx": 832,
+      "gt_answer": 42.0,
+      "original_predicted": 10.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.6163330078125
+    },
+    {
+      "idx": 843,
+      "gt_answer": 19.0,
+      "original_predicted": 79.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 127.23582458496094
+    },
+    {
+      "idx": 850,
+      "gt_answer": 70.0,
+      "original_predicted": 70.0,
+      "new_predicted": 70.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "55 - 10 = 45",
+      "corrupted_equation_new": "55 - 10 = 33\u0120goats\u0120lef",
+      "hidden_state_drift": 141.77578735351562
+    },
+    {
+      "idx": 862,
+      "gt_answer": 40.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 145.01895141601562
+    },
+    {
+      "idx": 866,
+      "gt_answer": 28.0,
+      "original_predicted": 28.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.69429779052734
+    },
+    {
+      "idx": 867,
+      "gt_answer": 7.0,
+      "original_predicted": 12.0,
+      "new_predicted": 3.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "2 * 3 = 6",
+      "corrupted_equation_new": "2 * 3 = 8\u0120pounds.\u010a\u010a",
+      "hidden_state_drift": 108.87468719482422
+    },
+    {
+      "idx": 875,
+      "gt_answer": 60.0,
+      "original_predicted": 60.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.47657775878906
+    },
+    {
+      "idx": 879,
+      "gt_answer": 575.0,
+      "original_predicted": 800.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 115.3320541381836
+    },
+    {
+      "idx": 880,
+      "gt_answer": 10.0,
+      "original_predicted": 0.5,
+      "new_predicted": 0.5,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$2.00 - $1.50 = $0.50",
+      "corrupted_equation_new": "$2.00 - $1.50 = $0.44\u010a\u010aTherefor",
+      "hidden_state_drift": 145.51429748535156
+    },
+    {
+      "idx": 889,
+      "gt_answer": 15.0,
+      "original_predicted": 15.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.9861831665039
+    },
+    {
+      "idx": 892,
+      "gt_answer": 1.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 134.7864990234375
+    },
+    {
+      "idx": 894,
+      "gt_answer": 26.0,
+      "original_predicted": 44.44,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.26937866210938
+    },
+    {
+      "idx": 895,
+      "gt_answer": 74.0,
+      "original_predicted": 74.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.97914123535156
+    },
+    {
+      "idx": 901,
+      "gt_answer": 1.0,
+      "original_predicted": 1.0,
+      "new_predicted": 1.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "4 + 0.5 = 4.5",
+      "corrupted_equation_new": "4 + 0.5 = 6.47\u0120units.\u010a\u010a",
+      "hidden_state_drift": 110.24151611328125
+    },
+    {
+      "idx": 907,
+      "gt_answer": 16.0,
+      "original_predicted": 16.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.55724334716797
+    },
+    {
+      "idx": 909,
+      "gt_answer": 38.0,
+      "original_predicted": 38.0,
+      "new_predicted": 38.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "60 - 8 = 52",
+      "corrupted_equation_new": "60 - 8 = 74\u0120\\)\u0120years\u0120",
+      "hidden_state_drift": 109.68902587890625
+    },
+    {
+      "idx": 927,
+      "gt_answer": 85000.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 112.33203887939453
+    },
+    {
+      "idx": 929,
+      "gt_answer": 60.0,
+      "original_predicted": 60.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 142.54478454589844
+    },
+    {
+      "idx": 934,
+      "gt_answer": 410.0,
+      "original_predicted": 420.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.70690155029297
+    },
+    {
+      "idx": 943,
+      "gt_answer": 50.0,
+      "original_predicted": 36.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.82429504394531
+    },
+    {
+      "idx": 946,
+      "gt_answer": 450.0,
+      "original_predicted": 450.0,
+      "new_predicted": 30.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "70 - 40 = 30",
+      "corrupted_equation_new": "70 - 40 = 42.\u010a\u010aTherefo",
+      "hidden_state_drift": 144.04397583007812
+    },
+    {
+      "idx": 953,
+      "gt_answer": 452.0,
+      "original_predicted": 28.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.6205825805664
+    },
+    {
+      "idx": 955,
+      "gt_answer": 100.0,
+      "original_predicted": 100.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 112.6495132446289
+    },
+    {
+      "idx": 956,
+      "gt_answer": 1.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 107.66717529296875
+    },
+    {
+      "idx": 957,
+      "gt_answer": 45.0,
+      "original_predicted": 45.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.01061248779297
+    },
+    {
+      "idx": 961,
+      "gt_answer": 225.0,
+      "original_predicted": 85.0,
+      "new_predicted": 85.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "70 + 85 = 140",
+      "corrupted_equation_new": "70 + 85 = 183\u0120+\u012085\u0120=\u012022",
+      "hidden_state_drift": 109.8311767578125
+    },
+    {
+      "idx": 963,
+      "gt_answer": 147.0,
+      "original_predicted": 147.0,
+      "new_predicted": 147.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "160 - 13 = 147",
+      "corrupted_equation_new": "160 - 13 = 184\u010a\u010aSo,\u0120S\u0120=\u0120",
+      "hidden_state_drift": 117.17002868652344
+    },
+    {
+      "idx": 965,
+      "gt_answer": 374.0,
+      "original_predicted": 446.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.41693115234375
+    },
+    {
+      "idx": 974,
+      "gt_answer": 5.0,
+      "original_predicted": 8.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 121.56236267089844
+    },
+    {
+      "idx": 975,
+      "gt_answer": 20.0,
+      "original_predicted": 20.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.66413116455078
+    },
+    {
+      "idx": 983,
+      "gt_answer": 15.0,
+      "original_predicted": 5.5,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.359375
+    },
+    {
+      "idx": 992,
+      "gt_answer": 52.0,
+      "original_predicted": 358.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.93508911132812
+    },
+    {
+      "idx": 996,
+      "gt_answer": 3.0,
+      "original_predicted": 3.0,
+      "new_predicted": 3.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "13 - 10 = 3",
+      "corrupted_equation_new": "12 - 10 = 3\u0120years\u0120old",
+      "hidden_state_drift": 137.63919067382812
+    },
+    {
+      "idx": 1001,
+      "gt_answer": 2.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 123.1390151977539
+    },
+    {
+      "idx": 1002,
+      "gt_answer": 8.0,
+      "original_predicted": 4.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 110.240478515625
+    },
+    {
+      "idx": 1006,
+      "gt_answer": 826.0,
+      "original_predicted": 47.2,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.40724182128906
+    },
+    {
+      "idx": 1015,
+      "gt_answer": 78.0,
+      "original_predicted": 78.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.19970703125
+    },
+    {
+      "idx": 1020,
+      "gt_answer": 22.0,
+      "original_predicted": 14.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.47539520263672
+    },
+    {
+      "idx": 1024,
+      "gt_answer": 300.0,
+      "original_predicted": 220.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 117.63909149169922
+    },
+    {
+      "idx": 1041,
+      "gt_answer": 101.0,
+      "original_predicted": 101.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.18277740478516
+    },
+    {
+      "idx": 1042,
+      "gt_answer": 3.0,
+      "original_predicted": 7.17,
+      "new_predicted": 7.17,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$5 + $16.50 = $21.50",
+      "corrupted_equation_new": "$5 + $16.50 = $17.35.\u010a\u010aFinally",
+      "hidden_state_drift": 109.49433898925781
+    },
+    {
+      "idx": 1046,
+      "gt_answer": 189.0,
+      "original_predicted": 31.5,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 112.57447052001953
+    },
+    {
+      "idx": 1059,
+      "gt_answer": 2.0,
+      "original_predicted": 4.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.60739135742188
+    },
+    {
+      "idx": 1063,
+      "gt_answer": 320.0,
+      "original_predicted": 80.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 145.18223571777344
+    },
+    {
+      "idx": 1073,
+      "gt_answer": 21.0,
+      "original_predicted": 0.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 111.05581665039062
+    },
+    {
+      "idx": 1079,
+      "gt_answer": 10.0,
+      "original_predicted": 10.0,
+      "new_predicted": 10.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "2000 - 1800 = 200",
+      "corrupted_equation_new": "1540 - 1800 = 200\u010a\u010aSo,\u0120the\u0120",
+      "hidden_state_drift": 132.47726440429688
+    },
+    {
+      "idx": 1086,
+      "gt_answer": 131250.0,
+      "original_predicted": 131250.0,
+      "new_predicted": 131250.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "150 + 45 = 195",
+      "corrupted_equation_new": "150 + 45 = 238\u0120bikes,\u0120th",
+      "hidden_state_drift": 118.78766632080078
+    },
+    {
+      "idx": 1088,
+      "gt_answer": 30.0,
+      "original_predicted": 0.53125,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 114.34388732910156
+    },
+    {
+      "idx": 1090,
+      "gt_answer": 72.0,
+      "original_predicted": 72.0,
+      "new_predicted": 72.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "72 + 2 = 74",
+      "corrupted_equation_new": "72 + 2 = 96\u0120inches.\u010a\u010a",
+      "hidden_state_drift": 107.33976745605469
+    },
+    {
+      "idx": 1103,
+      "gt_answer": 90.0,
+      "original_predicted": 7.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.43804931640625
+    },
+    {
+      "idx": 1128,
+      "gt_answer": 9.0,
+      "original_predicted": 9.0,
+      "new_predicted": 9.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "14 + 4 = 2",
+      "corrupted_equation_new": "14 + 4 = 1V\u010a18\u0120=\u01202V\u010a",
+      "hidden_state_drift": 108.41146087646484
+    },
+    {
+      "idx": 1130,
+      "gt_answer": 25.0,
+      "original_predicted": 25000000.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 144.64584350585938
+    },
+    {
+      "idx": 1144,
+      "gt_answer": 34.0,
+      "original_predicted": 34.0,
+      "new_predicted": 34.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "5 * 6 = 30,",
+      "corrupted_equation_new": "5 * 6 = 39\u0120and\u0120the\u0120nu",
+      "hidden_state_drift": 110.76573181152344
+    },
+    {
+      "idx": 1151,
+      "gt_answer": 50.0,
+      "original_predicted": 50.0,
+      "new_predicted": 50.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "110 + 140 = 250",
+      "corrupted_equation_new": "110 + 140 = 152\u0120miles.\u010a\u010aN",
+      "hidden_state_drift": 115.33452606201172
+    },
+    {
+      "idx": 1167,
+      "gt_answer": 120.0,
+      "original_predicted": 120.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 142.65855407714844
+    },
+    {
+      "idx": 1169,
+      "gt_answer": 2.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 129.2494659423828
+    },
+    {
+      "idx": 1170,
+      "gt_answer": 2.0,
+      "original_predicted": 3.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.77310943603516
+    },
+    {
+      "idx": 1183,
+      "gt_answer": 11.0,
+      "original_predicted": 16.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 107.83956909179688
+    },
+    {
+      "idx": 1219,
+      "gt_answer": 100.0,
+      "original_predicted": 100.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.07916259765625
+    },
+    {
+      "idx": 1238,
+      "gt_answer": 520.0,
+      "original_predicted": 156.0,
+      "new_predicted": 156.0,
+      "answer_changed": false,
+      "error_propagated": false,
+      "corrupted": true,
+      "corrupted_equation_original": "$1.00 + $2.00 = $3.00",
+      "corrupted_equation_new": "$1.00 + $2.00 = $4.33.\u010a\u010aSince\u0120B",
+      "hidden_state_drift": 115.65203857421875
+    },
+    {
+      "idx": 1254,
+      "gt_answer": 30.0,
+      "original_predicted": 30.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 143.54116821289062
+    },
+    {
+      "idx": 1261,
+      "gt_answer": 235.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 116.62077331542969
+    },
+    {
+      "idx": 1268,
+      "gt_answer": 20.0,
+      "original_predicted": 2.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 109.71656799316406
+    },
+    {
+      "idx": 1274,
+      "gt_answer": 38.0,
+      "original_predicted": 46.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 139.1648406982422
+    },
+    {
+      "idx": 1275,
+      "gt_answer": 16.0,
+      "original_predicted": 16.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 141.48245239257812
+    },
+    {
+      "idx": 1291,
+      "gt_answer": 27.0,
+      "original_predicted": 5.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 108.11695098876953
+    },
+    {
+      "idx": 1308,
+      "gt_answer": 30.0,
+      "original_predicted": 30.0,
+      "new_predicted": 20.0,
+      "answer_changed": true,
+      "error_propagated": true,
+      "corrupted": true,
+      "corrupted_equation_original": "10 + 20 = 30",
+      "corrupted_equation_new": "10 + 20 = 34.\u010a",
+      "hidden_state_drift": 141.76531982421875
+    },
+    {
+      "idx": 1318,
+      "gt_answer": 14.0,
+      "original_predicted": 14.0,
+      "corrupted": false,
+      "reason": "no_equations_found",
+      "hidden_state_drift": 145.74281311035156
+    }
+  ]
+}
