@@ -19,7 +19,7 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).parent))
-from utils import extract_final_answer, find_cot_positions
+from utils import clean_bpe_artifacts, extract_final_answer, find_cot_positions
 
 MODEL_ID = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
 FALLBACK_MODEL_ID = "Qwen/Qwen2.5-3B-Instruct"
@@ -65,6 +65,7 @@ def generate_cot(model, tokenizer, prompt: str, max_new_tokens: int = 2048) -> t
         pad_token_id=tokenizer.eos_token_id,
     )
     full_text = tokenizer.decode(output_ids[0], skip_special_tokens=False)
+    full_text = clean_bpe_artifacts(full_text)
     return full_text, output_ids
 
 

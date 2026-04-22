@@ -9,6 +9,8 @@ def extract_final_answer(text: str) -> Optional[float]:
     Handles DeepSeek-R1 format where answer appears after </think>, and
     GSM8K ground-truth format (#### N).
     """
+    text = clean_bpe_artifacts(text)
+
     # GSM8K ground truth format
     gt_match = re.search(r"####\s*([\d,\.\-]+)", text)
     if gt_match:
@@ -110,6 +112,15 @@ def find_cot_positions(full_token_ids: list[int], prompt_len: int, tokenizer) ->
     return positions
 
 
+def clean_bpe_artifacts(text: str) -> str:
+    """Replace GPT-2 BPE special characters with normal ASCII equivalents.
+
+    The tokenizer encodes space as Ġ (U+0120) and newline as Ċ (U+010A).
+    Python regex \\s does not match these, so clean them before any text processing.
+    """
+    return text.replace("\u0120", " ").replace("\u010a", "\n")
+
+
 def parse_equations(cot_text: str) -> list[dict]:
     """Find arithmetic equations in CoT text.
 
@@ -119,6 +130,7 @@ def parse_equations(cot_text: str) -> list[dict]:
       24 * 3 = 72               (plain)
       Eggs kept = 16 - 3 = **13 eggs**  (labelled equations)
     """
+    cot_text = clean_bpe_artifacts(cot_text)
     # Match: number op number = optional(** $) number optional(text **)
     pattern = re.compile(
         r"(\$?[\d,]+(?:\.\d+)?)"          # left operand (optional $)
