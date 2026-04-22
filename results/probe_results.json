@@ -1,0 +1,102 @@
+{
+  "layer27": {
+    "pos0": {
+      "5class": {
+        "accuracy": 0.30932524639878695,
+        "random_baseline": 0.21986353297952996,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.6611068991660348,
+        "random_baseline": 0.4965883244882487,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos1": {
+      "5class": {
+        "accuracy": 0.27824109173616374,
+        "random_baseline": 0.22517058377558757,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.6277482941622441,
+        "random_baseline": 0.511751326762699,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos2": {
+      "5class": {
+        "accuracy": 0.23426838514025777,
+        "random_baseline": 0.20166793025018953,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.5481425322213799,
+        "random_baseline": 0.4935557240333586,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos3": {
+      "5class": {
+        "accuracy": 0.29567854435178165,
+        "random_baseline": 0.2259287338893101,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.6376042456406369,
+        "random_baseline": 0.5344958301743745,
+        "majority_baseline": 0.5026535253980288
+      }
+    }
+  },
+  "layer12": {
+    "pos0": {
+      "5class": {
+        "accuracy": 0.3009855951478393,
+        "random_baseline": 0.21304018195602728,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.6224412433661866,
+        "random_baseline": 0.4981046247156937,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos1": {
+      "5class": {
+        "accuracy": 0.287338893100834,
+        "random_baseline": 0.20621683093252463,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.624715693707354,
+        "random_baseline": 0.488248673237301,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos2": {
+      "5class": {
+        "accuracy": 0.25549658832448824,
+        "random_baseline": 0.20318423047763456,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.5663381349507203,
+        "random_baseline": 0.5253980288097043,
+        "majority_baseline": 0.5026535253980288
+      }
+    },
+    "pos3": {
+      "5class": {
+        "accuracy": 0.310841546626232,
+        "random_baseline": 0.22517058377558757,
+        "majority_baseline": 0.20242608036391205
+      },
+      "binary": {
+        "accuracy": 0.6535253980288097,
+        "random_baseline": 0.5034116755117514,
+        "majority_baseline": 0.5026535253980288
+      }
+    }
+  }
+}
