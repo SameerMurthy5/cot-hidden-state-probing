@@ -46,6 +46,12 @@ We study \textsc{DeepSeek-R1-Distill-Qwen-1.5B} \cite{deepseek2025r1}, a small r
 \paragraph{Probing hidden states.}
 Linear probing \cite{belinkov2022probing} uses simple classifiers on frozen model representations to test what information is encoded at various layers and positions. \citet{li2024inference} show that model internals can represent truthful answers even when the model verbalizes something different, motivating inference-time interventions. Our work applies probing to the \textit{temporal} dimension of generation rather than the layer dimension, asking when the answer is encoded rather than where.
 
+\paragraph{CoT faithfulness in reasoning models.}
+\citet{chen2025reasoning} evaluate CoT faithfulness on Claude 3.7 Sonnet and DeepSeek-R1 across six hint categories, finding that models verbalize their use of hints in fewer than 20\% of cases on average, and that outcome-based RL improves faithfulness but plateaus well below saturation. \citet{walden2025reasoning} extend this by showing that reasoning models will flatly deny relying on hints even when directly asked---a stronger failure mode than mere omission. These results suggest that CoT unfaithfulness is a systematic property of the generation paradigm rather than an artifact of model scale.
+
+\paragraph{Early answer encoding and the logit lens.}
+The logit lens \cite{nostalgebraist2020logitlens} projects intermediate residual-stream activations into vocabulary space, showing that next-token predictions stabilize in middle layers well before the final layer. \citet{bereska2024mechanistic} note that probing is fundamentally correlational: high probe accuracy establishes that a concept is linearly encoded, but does not imply it causally mediates the output. Our corruption experiment supplies this causal complement---if corrupting a written step rarely changes the final answer, that step was not on the causal path regardless of what the hidden states encode.
+
 \section{Approach}
 
 We run two complementary experiments on the same model and dataset, following the design outlined in our proposal with minor implementation adaptations.
@@ -84,7 +90,7 @@ We measure (1) the \textit{answer change rate}: how often the final answer chang
 We compute a per-example hidden-state drift score—the L2 distance between pos0 and pos3 hidden states (layer 27)—as a proxy for how much the model's representation changes across the CoT. We then check whether low-drift examples (model "pre-committed" early) are also the ones resistant to corruption.
 
 \paragraph{Implementation notes.}
-\textsc{DeepSeek-R1-Distill-Qwen-1.5B} uses the GPT-2 byte-pair encoding tokenizer, which encodes spaces as the Unicode character \texttt{\u0120} (Ġ) and newlines as \texttt{\u010a} (Ċ). Python regex \texttt{\textbackslash s} does not match these, so we add an explicit cleaning step before any text processing. The final answer is extracted using the \texttt{\textbackslash boxed\{\}} pattern specific to this model's output format.
+\textsc{DeepSeek-R1-Distill-Qwen-1.5B} uses the GPT-2 byte-pair encoding tokenizer, which encodes spaces as Unicode character U+0120 and newlines as U+010A. Python's regex \texttt{\textbackslash s} does not match these, so we add an explicit cleaning step before any text processing. The final answer is extracted using the \texttt{\textbackslash boxed\{\}} pattern specific to this model's output format.
 
 \section{Results}
 
